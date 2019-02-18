@@ -248,6 +248,8 @@
 
 		    // On successful form submission, display a success message and reset the form
 		    if (resp.result == "success"){
+				
+				resp.msg="Mulțumim că te-ai înscris, vom reveni în curând cu vești!"
 		        $('#mce-'+resp.result+'-response').show();
 		        $('#mce-'+resp.result+'-response').html(resp.msg);
 		        $('#mc-embedded-subscribe-form').each(function(){
