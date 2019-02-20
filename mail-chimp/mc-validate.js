@@ -141,7 +141,7 @@
 		//if gdpr is required the user must pick at least one option.
 		var $fields = $("input:not(:hidden)", $(element).closest(grouping_class));
 		return $fields.filter(":checked").length !== 0;
-	}, "Te rog să acepți Termenii și Condițiile.");
+	}, "Pentru a continua trebuie să accepți Termenii și Condițiile.");
 
 }(jQuery));
 // MC

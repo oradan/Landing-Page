@@ -15,7 +15,7 @@ body{font-family: 'Lato', sans-serif;}
     text-align: center;
 }
 .title{
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 400;
     
 
@@ -98,8 +98,8 @@ body{font-family: 'Lato', sans-serif;}
     height: 0;
     border-style: solid;
     border-width: 25px 25px 0 25px;
-   border-color: #274539 transparent transparent transparent;
-   margin-top: -49px;
+   border-color: #1a382c transparent transparent transparent;
+   margin-top: -17px;
 
 }
 .bg-green{
@@ -203,5 +203,12 @@ body{font-family: 'Lato', sans-serif;}
   }
 
  
-
+  @media screen and (min-width: 1700px){
+   .logo{
+       margin: 50px 0px
+   }
+   .wm-m-xl{
+       margin: 30px 0px
+   }
+  }
   
